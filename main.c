@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include "pila.h"
 
 int main(){
-  printf("Este es un ejemplo\n");
+  Pila pila;
+  pila.x = 6;
+  printf("%d\n",pila.x);
 }
 
